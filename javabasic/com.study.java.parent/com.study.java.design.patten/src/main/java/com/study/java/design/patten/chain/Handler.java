@@ -3,20 +3,28 @@ package com.study.java.design.patten.chain;
 /**
  * Created by Administrator on 2017/12/5.
  */
-public abstract class Handler {
+public abstract class Handler
+{
     private Handler nextHandler;
 
-    public final Response handleMessage(Request request) {
+    public final Response handleMessage(Request request)
+    {
         Response response = null;
 
         // 判断是否是自己的处理级别
-        if (this.getHandlerLevel().equals(request.getRequestLevel())) {
+        if (this.getHandlerLevel().equals(request.getRequestLevel()))
+        {
             response = this.echo(request);
-        } else {
+        }
+        else
+        {
             //不属于自己的处理级别 判断是否有下一个处理者
-            if (this.nextHandler != null) {
+            if (this.nextHandler != null)
+            {
                 response = this.nextHandler.handleMessage(request);
-            } else {
+            }
+            else
+            {
                 //没有适当的处理者，业务自行处理
             }
         }
@@ -28,7 +36,8 @@ public abstract class Handler {
      *
      * @param _handler
      */
-    public void setNext(Handler _handler) {
+    public void setNext(Handler _handler)
+    {
         this.nextHandler = _handler;
     }
 

@@ -1,24 +1,18 @@
 /*
- * 文件名：InsertionSort.java
- * 版权：Copyright 2015-2017 SBS Tech. Co. Ltd. All Rights Reserved. 
- * 描述： InsertionSort.java
- * 修改人：Administrator
- * 修改时间：2017年5月28日
- * 修改内容：新增
+ * 锟侥硷拷锟斤拷锟斤拷InsertionSort.java
+ * 锟斤拷权锟斤拷Copyright 2015-2017 SBS Tech. Co. Ltd. All Rights Reserved. 
+ * 锟斤拷锟斤拷锟斤拷 InsertionSort.java
+ * 锟睫革拷锟剿ｏ拷Administrator
+ * 锟睫革拷时锟戒：2017锟斤拷5锟斤拷28锟斤拷
+ * 锟睫革拷锟斤拷锟捷ｏ拷锟斤拷锟斤拷
  */
 package com.study.java.arithmetic.sort;
 
 /**
- * TODO 添加类的一句话简单描述。
- * <p>
- * TODO 详细描述
- * <p>
- * TODO 示例代码
  * <pre>
  * </pre>
  * 
  * @author     Administrator
- * @version    SBS V001R001 2017年5月28日
  * @since      SBS V001R001C00
  */
 public class InsertionSort
@@ -31,7 +25,7 @@ public class InsertionSort
             int j = i - 1;
             while (j >= 0 && args[j] > temp)
             {
-                // 将第j个元素后移
+                // 锟斤拷锟斤拷j锟斤拷元锟截猴拷锟斤拷
                 args[j + 1] = args[j];
                 j--;
             }

@@ -1,6 +1,6 @@
 /*
  * 文件名：FistBean.java
- * 版权：Copyright 2015-2017 SBS Tech. Co. Ltd. All Rights Reserved. 
+ * 版权：Copyright 2015-2017 SBS Tech. Co. Ltd. All Rights Reserved.
  * 描述： FistBean.java
  * 修改人：Administrator
  * 修改时间：2017年5月28日
@@ -16,10 +16,10 @@ package com.study.java.spring;
  * TODO 示例代码
  * <pre>
  * </pre>
- * 
- * @author     Administrator
- * @version    SBS V001R001 2017年5月28日
- * @since      SBS V001R001C00
+ *
+ * @author Administrator
+ * @version SBS V001R001 2017年5月28日
+ * @since SBS V001R001C00
  */
 public class FistBean
 {

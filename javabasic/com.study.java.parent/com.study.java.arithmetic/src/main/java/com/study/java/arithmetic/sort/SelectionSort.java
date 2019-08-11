@@ -1,24 +1,18 @@
 /*
- * 文件名：SelectionSort.java
- * 版权：Copyright 2015-2017 SBS Tech. Co. Ltd. All Rights Reserved. 
- * 描述： SelectionSort.java
- * 修改人：Administrator
- * 修改时间：2017年5月30日
- * 修改内容：新增
+ * 锟侥硷拷锟斤拷锟斤拷SelectionSort.java
+ * 锟斤拷权锟斤拷Copyright 2015-2017 SBS Tech. Co. Ltd. All Rights Reserved. 
+ * 锟斤拷锟斤拷锟斤拷 SelectionSort.java
+ * 锟睫革拷锟剿ｏ拷Administrator
+ * 锟睫革拷时锟戒：2017锟斤拷5锟斤拷30锟斤拷
+ * 锟睫革拷锟斤拷锟捷ｏ拷锟斤拷锟斤拷
  */
 package com.study.java.arithmetic.sort;
 
 /**
- * TODO 添加类的一句话简单描述。
- * <p>
- * TODO 详细描述
- * <p>
- * TODO 示例代码
  * <pre>
  * </pre>
  * 
  * @author     Administrator
- * @version    SBS V001R001 2017年5月30日
  * @since      SBS V001R001C00
  */
 public class SelectionSort
