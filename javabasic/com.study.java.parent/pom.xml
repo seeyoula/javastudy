@@ -15,6 +15,7 @@
 		<module>com.study.java.thread</module>
 		<module>listen-parent</module>
 		<module>com.study.antlr</module>
+		<module>com.study.leetcode</module>
 		<module>spring-boot</module>
 	</modules>
 
